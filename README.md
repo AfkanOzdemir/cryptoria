@@ -2,8 +2,6 @@
 
 A modern web application for generating secure passwords and encrypting/decrypting text.
 
-![Cryptoria](https://via.placeholder.com/800x400?text=Cryptoria+Screenshot)
-
 ## Features
 
 - **Password Generation**: Create strong and secure passwords with customizable options
@@ -70,10 +68,6 @@ yarn dev
 3. Provide an encryption key
 4. Click "Encrypt" to encrypt the text
 5. To decrypt, enter the encrypted text and the same key, then click "Decrypt"
-
-## License
-
-MIT License - see the LICENSE file for details
 
 ## Acknowledgments
 
