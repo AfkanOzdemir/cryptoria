@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cryptoria
+
+A modern web application for generating secure passwords and encrypting/decrypting text.
+
+![Cryptoria](https://via.placeholder.com/800x400?text=Cryptoria+Screenshot)
+
+## Features
+
+- **Password Generation**: Create strong and secure passwords with customizable options
+  - Adjustable password length
+  - Include/exclude letters, numbers, and symbols
+  - Copy generated passwords to clipboard
+  
+- **Text Encryption/Decryption**: Securely encrypt and decrypt text using a key
+  - Simple and intuitive interface
+  - Secure encryption algorithms
+  - Easy-to-use key-based encryption
+
+## Technologies
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/afkanozdemir/cryptoria.git
+cd cryptoria
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Password Generator
 
-## Learn More
+1. Select the "Password" tab
+2. Configure password options (length, include letters, numbers, symbols)
+3. Click the refresh button to generate a password
+4. Use the copy button to copy the password to your clipboard
 
-To learn more about Next.js, take a look at the following resources:
+### Text Encryption/Decryption
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Select the "Crypt" tab
+2. Enter the plain text you want to encrypt
+3. Provide an encryption key
+4. Click "Encrypt" to encrypt the text
+5. To decrypt, enter the encrypted text and the same key, then click "Decrypt"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+MIT License - see the LICENSE file for details
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Icons provided by [Lucide](https://lucide.dev/)
+- Font: Poppins from Google Fonts
