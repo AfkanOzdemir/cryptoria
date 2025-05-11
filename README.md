@@ -2,17 +2,22 @@
 
 A modern web application for generating secure passwords and encrypting/decrypting text.
 
+
 ## Features
 
 - **Password Generation**: Create strong and secure passwords with customizable options
   - Adjustable password length
   - Include/exclude letters, numbers, and symbols
   - Copy generated passwords to clipboard
+
+![Cryptoria Password Generator](/public/example/Generate-pass.png)
   
 - **Text Encryption/Decryption**: Securely encrypt and decrypt text using a key
   - Simple and intuitive interface
   - Secure encryption algorithms
   - Easy-to-use key-based encryption
+
+![Cryptoria Text Encryption](/public/example/Generate-crypt.png)
 
 ## Technologies
 
@@ -61,6 +66,8 @@ yarn dev
 3. Click the refresh button to generate a password
 4. Use the copy button to copy the password to your clipboard
 
+![Password Generator Example](/public/example/Generate-pass.png)
+
 ### Text Encryption/Decryption
 
 1. Select the "Crypt" tab
@@ -68,6 +75,8 @@ yarn dev
 3. Provide an encryption key
 4. Click "Encrypt" to encrypt the text
 5. To decrypt, enter the encrypted text and the same key, then click "Decrypt"
+
+![Text Encryption Example](/public/example/Generate-crypt.png)
 
 ## Acknowledgments
 
